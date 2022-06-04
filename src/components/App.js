@@ -4,7 +4,8 @@ import AppHeader from './AppHeader';
 // import ClassComponent from './ClassComponent';
 // import ClassComponent from './ClassComponent';
 import WelcomeClass from './ClassComponent';
-
+// import FunctionalComponent from './FunctionalComponents';
+import {FunctionalComponent} from './FunctionalComponents'; // use {} brackects
 export default function App() {
   return (
     <div>
@@ -15,6 +16,8 @@ export default function App() {
         {/* <ClassComponent/> */}
         {/* <ClassComponent></ClassComponent> */}
         <WelcomeClass/>
+        <FunctionalComponent/>
+        
     </div>
   );
 }
