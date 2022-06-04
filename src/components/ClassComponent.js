@@ -1,20 +1,53 @@
-//alway import belowline every component
-import React from 'react';
-//class inheritence uses extends keyword and also use this 
-class ClassComponent extends React.Component{
-  //syntax of render(){} 
+
+//Class ==> Props  ===> Es6Class ===>JSX
+//          Properties---state-------HTML
+
+
+
+
+
+//add component to import
+import React , {Component} from 'react';
+class WelcomeClass extends Component {
   render(){
-    //syntax of return
     return(
       <div>
-        <h3>Hello</h3>
-      <h1>ClassComponent</h1>
-      </div>
-    );
-    }
+        <h1>WelcomeClass</h1>
+        </div>
+    )
+  }
 }
-//alway export belowline every component
-export default ClassComponent;
+export default WelcomeClass;
+
+
+
+
+
+
+
+
+
+
+
+// //alway import belowline every component
+// import React from 'react';
+// //class inheritence uses extends keyword and also use this 
+// class ClassComponent extends React.Component{
+//   //syntax of render(){} 
+//   render(){
+//     //syntax of return
+//     return(
+//       <div>
+//         <h3>Hello</h3>
+//       <h1>ClassComponent</h1>
+//       </div>
+//     );
+//     }
+// }
+// //alway export belowline every component
+// export default ClassComponent;
+
+
 
 
 

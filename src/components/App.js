@@ -1,8 +1,9 @@
 import React from 'react';
 // import './style.css';
 import AppHeader from './AppHeader';
-import ClassComponent from './ClassComponent';
 // import ClassComponent from './ClassComponent';
+// import ClassComponent from './ClassComponent';
+import WelcomeClass from './ClassComponent';
 
 export default function App() {
   return (
@@ -12,7 +13,8 @@ export default function App() {
       <AppHeader></AppHeader>
         {/* <AppHeader/> */}
         {/* <ClassComponent/> */}
-        <ClassComponent></ClassComponent>
+        {/* <ClassComponent></ClassComponent> */}
+        <WelcomeClass/>
     </div>
   );
 }
