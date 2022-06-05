@@ -10,7 +10,7 @@ import {PropsCompo} from './PropsCompo';
 import Message from './Message';
 export default function App() {
   return (
-    <div class="App">
+    <div >
        {/* props */}
        <Message/>
          {/* props */}
