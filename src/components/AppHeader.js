@@ -1,9 +1,11 @@
 import React from 'react';
 const AppHeader = (props) => {
-  console.log(props.name)
+  // console.log(props.name)
+  //props are immutable (not changeable)
   return(
     <div>
-      <h3>Created {props.name} component</h3>
+      <h3>Created {props.name} - {props.heroName} component</h3>
+      {props.children}
       </div>
 
   );

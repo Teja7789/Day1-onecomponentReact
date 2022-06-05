@@ -10,15 +10,21 @@ import {PropsCompo} from './PropsCompo';
 export default function App() {
   return (
     <div class="App">
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen </p>
-      <AppHeader name="Mani"></AppHeader>
-      <AppHeader name="Nani"/>
-      <AppHeader name="Venkat"/>
+    
+      <AppHeader name="Mani" heroName="Batman"> 
+      <p>This is children props</p></AppHeader>
+      <AppHeader name="Nani" heroName="Superman">
+        <button>Action</button>
+      </AppHeader>
+      <AppHeader name="Venkat" heroName="Hanu"/>
+      {/* class attribute to props  */}
+      <WelcomeClass name="Mani" heroName="Batman" />
+      <WelcomeClass name="Nani" heroName="Superman" />
+      <WelcomeClass name="Venkat" heroName="Hanu" />
         {/* <AppHeader/> */}
         {/* <ClassComponent/> */}
         {/* <ClassComponent></ClassComponent> */}
-        <WelcomeClass/>
+       
         <FunctionalComponent/>
         {/* <PropsCompo /> */}
         

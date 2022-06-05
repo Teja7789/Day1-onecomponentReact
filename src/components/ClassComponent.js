@@ -9,10 +9,11 @@
 //add component to import
 import React , {Component} from 'react';
 class WelcomeClass extends Component {
+  //this contans props 
   render(){
     return(
       <div>
-        <h1>WelcomeClass</h1>
+        <h1>WelcomeClass {this.props.name} - {this.props.heroName}</h1>
         </div>
     )
   }
