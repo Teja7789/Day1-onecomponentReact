@@ -8,7 +8,6 @@ class Counter extends Component {
       count: 0
     }
   }
-
   increment() {
     this.setState((prevState) => ({ //props also passed in ()
       count: prevState.count + 1      //+props.addValue
