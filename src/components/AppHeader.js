@@ -1,8 +1,9 @@
 import React from 'react';
-const AppHeader = () => {
+const AppHeader = (props) => {
+  console.log(props.name)
   return(
     <div>
-      <h3>Created first component</h3>
+      <h3>Created {props.name} component</h3>
       </div>
 
   );
